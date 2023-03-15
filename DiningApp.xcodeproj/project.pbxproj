@@ -16,6 +16,7 @@
 		81571A8C29C0FA4500F3DA2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A8B29C0FA4500F3DA2E /* Menu.swift */; };
 		81571A8E29C0FA4E00F3DA2E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 81571A8D29C0FA4E00F3DA2E /* menu.json */; };
 		81571A9029C1BEC400F3DA2E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A8F29C1BEC400F3DA2E /* ItemRow.swift */; };
+		81571A9229C1D24C00F3DA2E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A9129C1D24C00F3DA2E /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		81571A8B29C0FA4500F3DA2E /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		81571A8D29C0FA4E00F3DA2E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		81571A8F29C1BEC400F3DA2E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		81571A9129C1D24C00F3DA2E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				81571A7929C0F97600F3DA2E /* DiningAppApp.swift */,
 				81571A7B29C0F97600F3DA2E /* ContentView.swift */,
+				81571A9129C1D24C00F3DA2E /* ItemDetail.swift */,
 				81571A8F29C1BEC400F3DA2E /* ItemRow.swift */,
 				81571A8929C0FA3700F3DA2E /* Order.swift */,
 				81571A8B29C0FA4500F3DA2E /* Menu.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81571A9229C1D24C00F3DA2E /* ItemDetail.swift in Sources */,
 				81571A7C29C0F97600F3DA2E /* ContentView.swift in Sources */,
 				81571A7A29C0F97600F3DA2E /* DiningAppApp.swift in Sources */,
 				81571A8A29C0FA3700F3DA2E /* Order.swift in Sources */,
