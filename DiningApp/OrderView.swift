@@ -22,18 +22,26 @@ struct OrderView: View {
                         }
                         
                     }
+                    .onDelete(perform: deleteItems)
                 }
                 Section {
                     NavigationLink("Place Order") {
                         CheckoutView()
                     }
                 }
+                .disabled(order.items.isEmpty)
             }
             .navigationTitle("Order")
-            
+            .toolbar {
+                EditButton()
+            }
         }
     }
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
+    }
 }
+
 
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
