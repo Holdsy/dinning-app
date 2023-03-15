@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DiningAppApp: App {
+struct DiningApp: App {
     @StateObject var order = Order()
     
     

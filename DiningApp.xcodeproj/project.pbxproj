@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81571A7A29C0F97600F3DA2E /* DiningAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A7929C0F97600F3DA2E /* DiningAppApp.swift */; };
+		81571A7A29C0F97600F3DA2E /* DiningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A7929C0F97600F3DA2E /* DiningApp.swift */; };
 		81571A7C29C0F97600F3DA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A7B29C0F97600F3DA2E /* ContentView.swift */; };
 		81571A7E29C0F97900F3DA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81571A7D29C0F97900F3DA2E /* Assets.xcassets */; };
 		81571A8129C0F97900F3DA2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81571A8029C0F97900F3DA2E /* Preview Assets.xcassets */; };
@@ -17,11 +17,12 @@
 		81571A8E29C0FA4E00F3DA2E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 81571A8D29C0FA4E00F3DA2E /* menu.json */; };
 		81571A9029C1BEC400F3DA2E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A8F29C1BEC400F3DA2E /* ItemRow.swift */; };
 		81571A9229C1D24C00F3DA2E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A9129C1D24C00F3DA2E /* ItemDetail.swift */; };
+		81571A9429C1E4A500F3DA2E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81571A9329C1E4A500F3DA2E /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81571A7629C0F97600F3DA2E /* DiningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81571A7929C0F97600F3DA2E /* DiningAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningAppApp.swift; sourceTree = "<group>"; };
+		81571A7929C0F97600F3DA2E /* DiningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningApp.swift; sourceTree = "<group>"; };
 		81571A7B29C0F97600F3DA2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81571A7D29C0F97900F3DA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81571A8029C0F97900F3DA2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 		81571A8D29C0FA4E00F3DA2E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		81571A8F29C1BEC400F3DA2E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		81571A9129C1D24C00F3DA2E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		81571A9329C1E4A500F3DA2E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 		81571A7829C0F97600F3DA2E /* DiningApp */ = {
 			isa = PBXGroup;
 			children = (
-				81571A7929C0F97600F3DA2E /* DiningAppApp.swift */,
+				81571A7929C0F97600F3DA2E /* DiningApp.swift */,
 				81571A7B29C0F97600F3DA2E /* ContentView.swift */,
 				81571A9129C1D24C00F3DA2E /* ItemDetail.swift */,
+				81571A9329C1E4A500F3DA2E /* OrderView.swift */,
 				81571A8F29C1BEC400F3DA2E /* ItemRow.swift */,
 				81571A8929C0FA3700F3DA2E /* Order.swift */,
 				81571A8B29C0FA4500F3DA2E /* Menu.swift */,
@@ -157,8 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81571A9229C1D24C00F3DA2E /* ItemDetail.swift in Sources */,
+				81571A9429C1E4A500F3DA2E /* OrderView.swift in Sources */,
 				81571A7C29C0F97600F3DA2E /* ContentView.swift in Sources */,
-				81571A7A29C0F97600F3DA2E /* DiningAppApp.swift in Sources */,
+				81571A7A29C0F97600F3DA2E /* DiningApp.swift in Sources */,
 				81571A8A29C0FA3700F3DA2E /* Order.swift in Sources */,
 				81571A9029C1BEC400F3DA2E /* ItemRow.swift in Sources */,
 				81571A8829C0FA1600F3DA2E /* Helper.swift in Sources */,
